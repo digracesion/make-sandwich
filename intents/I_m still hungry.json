@@ -1,0 +1,73 @@
+{
+  "id": "a3e06c9f-fe75-449d-b848-dd1bc0b01ba4",
+  "name": "I\u0027m still hungry",
+  "auto": true,
+  "contexts": [
+    "nextSandwich"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "nextSandwich",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "58d94184-6f77-47cb-9b78-c94e8d3204a1",
+          "required": true,
+          "dataType": "@meat",
+          "name": "meat",
+          "value": "$meat",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "何にくがほしいですか"
+            },
+            {
+              "lang": "en",
+              "value": "what type of meat do you like?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "57dd92d8-778c-4a0a-b0a1-63c1b8642efa",
+          "required": true,
+          "dataType": "@condiments",
+          "name": "condiments",
+          "value": "$condiments",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "何かやくがほしいですか"
+            },
+            {
+              "lang": "en",
+              "value": "what type of condiments do you like?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "another sandwich made! this one\u0027s a $meat and $condiments sandwich!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515390963,
+  "fallbackIntent": false,
+  "events": []
+}

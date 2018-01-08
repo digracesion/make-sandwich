@@ -1,0 +1,46 @@
+[
+  {
+    "id": "398f9a0f-7dc4-4c73-b93f-88009c5e5f83",
+    "data": [
+      {
+        "text": "おはようございます",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "42913abf-e6fb-4d1f-af36-baf5729b5f2a",
+    "data": [
+      {
+        "text": "こんばんわ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d2928654-3619-45b0-9688-d0a12c4424cb",
+    "data": [
+      {
+        "text": "こんいちは",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f18ee8a6-2a39-4353-953a-e8c0215e4cde",
+    "data": [
+      {
+        "text": "おはよう",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

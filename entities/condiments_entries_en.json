@@ -1,0 +1,22 @@
+[
+  {
+    "value": "ketchup",
+    "synonyms": [
+      "ketchup",
+      "catsup"
+    ]
+  },
+  {
+    "value": "mustard",
+    "synonyms": [
+      "mustard"
+    ]
+  },
+  {
+    "value": "mayo",
+    "synonyms": [
+      "mayo",
+      "mayonnaise"
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "aa55a1f7-71e9-4c83-92a9-ed541d742e63",
+    "data": [
+      {
+        "text": "もっとサンドイッチ、おねがいします",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4c675538-44c4-4acf-bd76-2a255fe922bf",
+    "data": [
+      {
+        "text": "まだおなかすいた",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

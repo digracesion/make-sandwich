@@ -1,0 +1,28 @@
+{
+  "id": "72a21afa-2bef-4502-8025-b4fab7ec4ed8",
+  "name": "intent_test",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515396527,
+  "fallbackIntent": false,
+  "events": []
+}

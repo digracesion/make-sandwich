@@ -1,0 +1,76 @@
+{
+  "id": "9e68fa2f-0a39-4378-b737-884ed0223806",
+  "name": "makeSandwich",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "nextSandwich",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d4a061f6-4cc6-4593-8c51-d14749943786",
+          "required": true,
+          "dataType": "@meat",
+          "name": "meat",
+          "value": "$meat",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "何肉がほしいですか"
+            },
+            {
+              "lang": "en",
+              "value": "what type of meat would you like?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "5c17043c-4b76-4b11-ac99-058e51561336",
+          "required": true,
+          "dataType": "@condiments",
+          "name": "condiments",
+          "value": "$condiments",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "何あじつきがほしいですか"
+            },
+            {
+              "lang": "en",
+              "value": "what condiments would you like?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "サンドイッチのつくるは、おわりました！"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "$meat and $condiments sandwich ready!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515389938,
+  "fallbackIntent": false,
+  "events": []
+}

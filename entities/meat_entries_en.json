@@ -1,0 +1,27 @@
+[
+  {
+    "value": "turkey",
+    "synonyms": [
+      "turkey"
+    ]
+  },
+  {
+    "value": "ham",
+    "synonyms": [
+      "ham"
+    ]
+  },
+  {
+    "value": "roast beef",
+    "synonyms": [
+      "roast beef",
+      "beef"
+    ]
+  },
+  {
+    "value": "chicken",
+    "synonyms": [
+      "chicken"
+    ]
+  }
+]

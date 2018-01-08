@@ -1,0 +1,53 @@
+{
+  "id": "1ea93b19-55b3-4d2e-afdc-40bf61a4af09",
+  "name": "Default Fallback Intent",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": [
+            "すみません。よく分かりませんでした。",
+            "今のは少しわかりにくかったです。",
+            "最後の一文を言い換えていただけませんか。",
+            "失礼ですが、もう一度おねがいします。",
+            "ちょっと分かりませんでした。",
+            "今、なんておっしゃいましたか？"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I didn\u0027t get that. Can you say it again?",
+            "I missed what you said. Say it again?",
+            "Sorry, could you say that again?",
+            "Sorry, can you say that again?",
+            "Can you say that again?",
+            "Sorry, I didn\u0027t get that.",
+            "Sorry, what was that?",
+            "One more time?",
+            "What was that?",
+            "Say that again?",
+            "I didn\u0027t get that.",
+            "I missed that."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}
