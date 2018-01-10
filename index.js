@@ -1,24 +1,12 @@
-'use strict';
+const express = require('express')
+const path = require('path')
+const PORT = process.env.PORT || 5000
 
-const http = require('http');
-const host = 'https://make-sandwich.herokuapp.com/';
-const wwoApiKey = '6f5c9852b94a4690bf562fe99dd7f9cb';
-exports.sandwichWebhook = (req, res)=>{
-	let meat = req.body.result.parameters['meat'];
-	let condimetns = req.body.result.parameters['condiments'];
-	callSandwichAPI(meat, condiments).then((output)=>{
-		console.log('correct path');
-		res.setHeader('Content-Type','application/json');
-		res.send(JSON.stringify({'speech':output,'displayText':output}));
-	}).catch((error)=>{
-		console.log('catcher');
-		res.setHeader('Content-Type','application/json');
-		res.send(JSON.stringify({'speech':error, 'displayText':error}));
-	});
-};
+express()
+  .use(express.static(path.join(__dirname, 'public')))
+  .set('views', path.join(__dirname, 'views'))
+  .set('view engine', 'ejs')
+  .get('/', (req, res) => res.render('pages/index'))
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
-function callSandwichAPI (meat, condiments){
-	return new Promise ((resolve, reject)=>{
-		console.log('API Request: ' + host);
-	});
-}
+console.log("tatoeba");
