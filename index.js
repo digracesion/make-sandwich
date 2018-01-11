@@ -8,13 +8,7 @@ express()
   .get('/', (req, res) => res.render('pages/index'))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
-app.set('port', (process.env.PORT || 5000))
-app.use(express.static(__dirname + '/public'))
-
-app.get('/', function(request, response) {
-  response.send('Hello World!')
-})
-
-app.listen(app.get('port'), function() {
-  console.log("Node app is running at localhost:" + app.get('port'))
-})
+var http = require('http');
+setInterval(function(){
+	http.get("make-sandwich.herokuapp.com");
+}, 300000); //awale every 5 minutes
