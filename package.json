@@ -3,27 +3,30 @@
 	"version": "1.0.0",
 	"description": "an app to make a Sandwich",
 	"logo": "https://node-js-sample.herokuapp.com/node.png",
-	"keywords": ["Sandwich","maker","app"],
-	"main":"index.js",
+	"keywords": [
+		"Sandwich",
+		"maker",
+		"app"
+	],
+	"main": "index.js",
 	"scripts": {
-		"start": "node index.js",
-	    "test": "node index.js"
+		"start": "node index.js"
 	},
 	"license": "MIT",
-	"author":"mggvi",
+	"author": "mggvi",
 	"dependencies": {
-		"ejs": "^2.5.6",
-		"express": "^4.15.2"
+		"ejs": "^2.5.7",
+		"express": "^4.16.2"
 	},
-	  "devDependencies": {
-	    "request": "^2.81.0",
-	    "tape": "^4.7.0"
+	"devDependencies": {
+		"request": "^2.81.0",
+		"tape": "^4.7.0"
 	},
 	"repository": {
 		"type": "git",
-	    "url": "https://github.com/digracesion/make-sandwich"
+		"url": "https://github.com/digracesion/make-sandwich"
 	},
-	"engines":{
-		"node":"4.1.1"
+	"engines": {
+		"node": "4.1.1"
 	}
 }
